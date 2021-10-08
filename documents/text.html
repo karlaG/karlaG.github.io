@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text | Workaround</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Text</h1>
+
+		<p>By default, all text in <b>WorkAround</b> is a member of the font-family <em>Hind Guntur</em>, the value of <b>$font</b>, a color <b>$font-color</b>, and a font size <b>$font-size</b>. Find these declarations in the Sass file <em>_components.scss</em> starting on line 11 and the definitions in <em>_variables.scss</em> starting on line 4.</p>
+		<br>
+		<p><b>WorkAround</b> also comes with default styling for <b>&lt;h1&gt;</b>,<b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;p&gt;</b>, and <b>&lt;a&gt;</b> tags. Try making the screen smaller. The typography should automatically adjust to fit the screen size. To learn more about this visit the <a href="breakpoints.html">Breakpoints</a> page.</p>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<p>This is a paragraph.</p>
+		<a>This is a link.</a>
+		
+		<br><br>
+		<p>Note that links are a color <b>$primary-color</b>. The color scheme is defined in the Sass file <em>_variables.scss</em> starting on line 9. To modify any of the default styles, please see the Sass file <em>_components.scss</em> starting on line 83. Go to <em>_variables.scss</em> on line 20 for the mixin that controls text size, weight and margin.</p>
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>

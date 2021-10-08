@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Breakpoints | Documentation</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Breakpoints</h1>
+		
+		<p>Responsive styling can be found in the Sass file <em>_responsive.scss</em>. <b>WorkAround</b> is built mobile-first. The following components have defined breakpoints in order to maximize responsiveness: navigation, text, and the grid system. Change you screen size to try out the various breakpoints on the examples that ensue.</p>
+		<br>
+		<nav class="navbar"> 
+			<ul> 
+				<li class="navbar-item"><a href="#">Page 3</a></li> 
+				<li class="navbar-item"><a href="#">Page 2</a></li> 
+				<li class="navbar-item active"><a href="#">Page 1</a></li> 
+			</ul> 
+		</nav>
+		<br>
+		<p>Navigational items float right by default at screen widths greater than 480px. At smaller screen widths, the navigation bar items stack on top of each other bottom up. See <em>_responsive.scss</em> lines 2-9 for the definition of this breakpoint or the <a href="navigation.html">Navigation</a> page for more specifics.</p>
+		<br>
+		<p>The text of a page should automatically adjust to fit the screen size. For screen widths of less than 780px, h1 text adjusts in font size and margin. Likewise, for screen widths of less than 480px, so does h2 text. See <em>_responsive.scss</em> lines 26-30 and 11-13 respectively or the <a href="text.html">Text</a> page for more specifics.</p>
+		<h1>Header 1</h1>
+		<h2>Header 2</h2>
+		<p>For the grid system, at screen widths below 970px a 6-column grid wraps onto 2 lines of 3 columns each. Until a screen width below 640px is reached at which point all size grids stack their columns in consecutive order into a single column. See <em>_responsive.scss</em> lines 16-24 and 32-36 respectively or the <a href="grid.html">Grid</a> page for more specifics.</p>
+		<div class="row"> 
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 1</h3> </div>
+			</div> 
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 2</h3> </div>
+			</div> 
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 3</h3> </div>
+			</div>
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 4</h3> </div>
+			</div>
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 5</h3> </div>
+			</div>
+			<div class="col-6"> 
+				<div class="card"> <h3>Column 6</h3> </div>
+			</div>
+		</div>
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>

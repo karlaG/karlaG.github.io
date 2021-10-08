@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid | Documentation</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Grid</h1>
+		
+		<p>The grid system in <b>WorkAround</b> is a 6-column grid system, allowing anywhere from 2 to 6 columns at a time. To create a grid, start with a row and inside this create columns as shown below. Content is placed within columns and only columns may be immediate children of rows.</p>
+		
+		<code class="card">
+			&lt;div class=&quot;row&quot;&gt; <br>
+				<span style="padding-left: 20px">&lt;div class=&quot;col-3&quot;&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;h3&gt;Column&lt;/h3&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.&lt;/p&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;/div&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;div class=&quot;col-3&quot;&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;h3&gt;Column&lt;/h3&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.&lt;/p&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;/div&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;div class=&quot;col-3&quot;&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;h3&gt;Column&lt;/h3&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.&lt;/p&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;/div&gt;</span> <br>
+			&lt;/div&gt;
+		</code>
+		<br>
+		<p>For 2 columns, add the class "col-2" to <em>each</em> column. For 3 columns, "col-3" and so on. The columns in the grid are equal width and have equal spacing between each other to fit evenly within the row. A row spans the full width of its parent container.</p>
+		<br>
+		<div class="row">
+			<div class="col-3">
+				<h3>Column</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.</p>
+			</div>
+			<div class="col-3">
+				<h3>Column</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.</p>
+			</div>
+			<div class="col-3">
+				<h3>Column</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum lacinia molestie. Donec consequat arcu est.</p>
+			</div>
+		</div>
+		<br>
+		<p>There are two breakpoints asscoiated with the grid system. The first is that for screen widths below 970px, a 6-column grid will wrap onto 2 lines of 3 columns each. The second is that for screen widths below 640px, all size grids will stack their columns in consecutive order into a single column. (Make your browser smaller and try it out!) See the <a href="breakpoints.html">Breakpoints</a> page for more information. To modify the grid system, please see the Sass file <em>_components.scss</em> starting on line 22 and <em>_variables.scss</em> starting on line 15.</p>	
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buttons | Documentation</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Buttons</h1>
+		
+		<p>Buttons can be declared two ways:</p>
+		<code class="card">
+			&lt;a href=&quot;#&quot; class=&quot;button-link&quot;&gt; <br>
+			<span style="padding-left: 20px">&lt;button&gt;Button Link&lt;/button&gt;</span> <br>
+			&lt;/a&gt;
+			<br><br>
+			&lt;button&gt;Regular Button&lt;/button&gt;
+		</code>
+		<p>Button links may be used to link to different pages or anchors within pages. Regular buttons can be used for forms or other functions (<em>may require adding javascript</em>).</p>
+		<br>
+		<p>They come in two styles:</p>
+		<code class="card">
+			&lt;button class=&quot;button-primary&quot;&gt;Button Primary&lt;/button&gt;
+			<br>
+			&lt;button class=&quot;button-secondary&quot;&gt;Button Secondary&lt;/button&gt;
+		</code>
+		<button class="button-primary">Button Primary</button>
+		<button class="button-secondary">Button Secondary</button>
+		
+		<br><br>
+		<p>To modify any of these styles, please see the Sass file <em>_components.scss</em>, starting on line 121. The primary button style uses the <b>$secondary-color</b> and lightens this color 4-fold upon hover, while the secondary button style starts with a transprent background, filling in with <b>$tertiary-color</b> upon hover and changing the text to <b>$default-color</b>.</p>
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>

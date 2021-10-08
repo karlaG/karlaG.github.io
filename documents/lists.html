@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listgroup | Documentation</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Listgroup</h1>
+
+		<p>To define a listgroup, start with a <b>&lt;div class=&quot;listgroup&quot;&gt;</b> wrapped around an un-ordered list. Add <b>&lt;li&gt;</b> elements as desired to define the content.</p>
+		<code class="card">
+			&lt;div class=&quot;listgroup&quot;&gt;<br>
+				<span style="padding-left: 20px">&lt;ul&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li&gt;Item 1&lt;/li&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li&gt;Item 2&lt;/li&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li&gt;Item 3&lt;/li&gt;</span> <br>
+				<span style="padding-left: 20px;">&lt;/ul&gt;</span> <br>
+			&lt;/div&gt;
+		</code>
+		<div class="listgroup">
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+		</div>
+		<br>
+		<p>Add the <em>class="label"</em> to a listgroup <b>&lt;li&gt;</b> element to create a section header. <b>&lt;li&gt;</b> elements can also be links. To learn more about links visit the <a href="text.html">Text</a> page.</p>
+		<code class="card">
+			&lt;div class=&quot;listgroup&quot;&gt;<br>
+				<span style="padding-left: 20px">&lt;ul&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li class=&quot;label&quot;&gt;Header&lt;/li&gt;</span><br>
+					<span style="padding-left: 40px">&lt;li&gt;Item&lt;/li&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li&gt; &lt;a href="#"&gt;Link&lt;/a&gt; &lt;/li&gt;</span><br>
+				<span style="padding-left: 20px;">&lt;/ul&gt;</span> <br>
+			&lt;/div&gt;
+		</code>
+		<div class="listgroup">
+			<ul>
+				<li class="label">Header</li>
+				<li>Item</li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</div>
+		<br>
+		<p>To modify any of these styles, please see the Sass file <em>_components.scss</em>, starting on line 106.</p>
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>

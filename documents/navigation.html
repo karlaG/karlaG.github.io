@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation | Documentation</title>
+	<link rel="stylesheet" href="../css/workaround.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="../WorkAround.zip">DOWNLOAD</a></li>
+			<li class="navbar-item"><a href="../example.html">Example</a></li>
+			<li class="navbar-item active"><a href="../documentation.html">Documentation</a></li>
+			<li class="navbar-item"><a href="../home.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Navigation</h1>
+
+		<p>Creating a responsive navigation bar is very simple in <b>WorkAround</b>. Start with a <b>&lt;nav&gt;</b> tag and give it a <em>class="navbar"</em>. Inside the <b>nav</b> create an un-ordered list with the desired navigational items. Each <b>&lt;li&gt;</b> gets a <em>class="navbar-item"</em>. Wrap the content of the <b>&lt;li&gt;</b> elements in link tags.</p>
+
+		<code class="card">
+			&lt;nav class=&quot;navbar&quot;&gt; <br>
+				<span style="padding-left: 20px">&lt;ul&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li class=&quot;navbar-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Page 3&lt;/a&gt;&lt;/li&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li class=&quot;navbar-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Page 2&lt;/a&gt;&lt;/li&gt;</span> <br>
+					<span style="padding-left: 40px">&lt;li class=&quot;navbar-item active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Page 1&lt;/a&gt;&lt;/li&gt;</span> <br>
+				<span style="padding-left: 20px">&lt;/ul&gt;</span> <br>
+			&lt;/nav&gt;
+		</code>
+		<br>
+		<p>Add a <em>class="active"</em> to an <b>&lt;li&gt;</b> item to emphasize the active page.</p>
+		<br>
+		<nav class="navbar">
+			<ul>
+				<li class="navbar-item"><a href="#">Page 3</a></li>
+				<li class="navbar-item"><a href="#">Page 2</a></li>
+				<li class="navbar-item active"><a href="#">Page 1</a></li>
+			</ul>
+		</nav>
+		<br>
+		<p>Note that the default color of the navigation bar is <b>$primary-color</b>, which lightens 4-fold upon hover. The text is the <b>$default-color</b>. The navigation bar is by default full-width. Also, note that items float right by default at screen sizes greater than 480px. At smaller screen sizes, the navigation bar items stack on top of each other. (Try it out!) Visit the <a href="breakpoints.html">Breakpoints</a> page for more information. To modify any of these styles, please see the Sass file <em>_components.scss</em>, starting on line 57.</p>
+		<br>
+		<a href="../documentation.html" class="button-link">
+			<button class="button-secondary">Back to Documentation</button>
+		</a>
+	</div>
+
+	<footer>&copy;2018 Karla Guardado - for DGMD E-27</footer>
+</body>
+</html>
