@@ -1,0 +1,36 @@
+@media only screen and (min-width: 480px) {
+    .navbar-item {
+        float: right;
+    }
+    .navbar-item a {
+        padding: 1em;
+        border-bottom: none;
+        border-left: 1px solid #fff;
+    }
+
+    h2 {
+		@include std-txt(1.5em,bold,0.75em);
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	.row {
+		flex-flow: row wrap;
+		margin: 0;
+	}
+	.col-2, .col-3, .col-4, .col-5, .col-6 {
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	h1 {
+		@include std-txt(3em,bold,1em);
+	}
+}
+
+@media only screen and (min-width: 970px) {
+	.col-6 {
+		@include std-col(16.66%);
+	}
+}

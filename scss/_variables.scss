@@ -1,0 +1,24 @@
+/*VARIABLES*/
+
+//fonts
+$font: 'Hind Guntur', sans-serif;
+$font-size: 1em;
+$font-color: #363537;
+
+//color scheme
+$primary-color: #698F3F;
+$secondary-color: #78A1BB;
+$tertiary-color: #878E88;
+$default-color: #fff;
+
+//text mixin
+@mixin std-col($basis) {
+	flex: 0 0 $basis;
+	padding: 1em;
+	margin: 0.5em 0 0.5em 0;
+}
+@mixin std-txt($size, $weight, $margin) {
+	font-size: $size;
+	font-weight: $weight;
+	margin: $margin 0 $margin 0;
+}
