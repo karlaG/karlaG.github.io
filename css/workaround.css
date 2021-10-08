@@ -1,0 +1,511 @@
+/*!normalize.css v2.1.3|MIT License|git.io/normalize*/
+@import url("https://fonts.googleapis.com/css?family=Hind+Guntur:400,600");
+/* line 10, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 26, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 34, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 41, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 51, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 57, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 64, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+a {
+  background: transparent;
+}
+
+/* line 69, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 74, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 83, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 89, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 94, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 100, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 105, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 111, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+mark {
+  background: #FF0;
+  color: #000;
+}
+
+/* line 117, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 126, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 131, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 136, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+small {
+  font-size: 80%;
+}
+
+/* line 141, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 148, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 151, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 158, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+img {
+  border: 0;
+}
+
+/* line 163, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 170, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+figure {
+  margin: 0;
+}
+
+/* line 177, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+fieldset {
+  border: 1px solid #C0C0C0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 185, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 193, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 204, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 213, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 223, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 232, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 239, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 248, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 255, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 261, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 269, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 277, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Scout-App/scout-files/mixins/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*VARIABLES*/
+/* line 2, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 10, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+body {
+  margin: 0;
+  font-family: "Hind Guntur", sans-serif;
+  font-size: 1em;
+  color: #363537;
+}
+
+/* line 18, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+/* line 22, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.row {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0;
+}
+
+/* line 29, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.col-2 {
+  flex: 0 0 50%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 32, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.col-3 {
+  flex: 0 0 33.33%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 35, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.col-4 {
+  flex: 0 0 25%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 38, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.col-5 {
+  flex: 0 0 20%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 41, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.col-6 {
+  flex: 0 0 33.33%;
+  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 44, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.card {
+  display: block;
+  margin: 1em 0 1em 0;
+  padding: 1em;
+  background-color: rgba(120, 161, 187, 0.5);
+}
+
+/* line 50, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+footer {
+  margin: 3em 0 2.5em 0;
+  padding: 2em;
+  text-align: center;
+}
+
+/* line 57, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.navbar {
+  background-color: #698F3F;
+}
+
+/* line 60, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 66, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.navbar-item {
+  float: none;
+}
+
+/* line 69, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.navbar-item a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  text-decoration: none;
+  border-left: none;
+}
+
+/* line 77, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.navbar-item a:hover, .active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #739d45;
+}
+
+/* line 84, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0.7em 0 0.7em 0;
+}
+
+/* line 87, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.7em 0 0.7em 0;
+}
+
+/* line 90, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 93, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+p {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 0 0 0;
+  line-height: 180%;
+}
+
+/* line 97, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+a {
+  text-decoration: none;
+  color: #698F3F;
+}
+
+/* line 101, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 106, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.listgroup ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 112, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.listgroup li:not(.label) {
+  padding-left: 1em;
+}
+
+/* line 116, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.label {
+  font-weight: bold;
+}
+
+/* line 121, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-link {
+  text-decoration: none;
+}
+
+/* line 124, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-link:hover {
+  text-decoration: none;
+}
+
+/* line 127, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-primary {
+  background-color: #78A1BB;
+  border: 2px solid #78A1BB;
+  border-radius: 5px;
+  padding: 0.7em;
+  color: #fff;
+}
+
+/* line 134, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-primary:hover {
+  background-color: #86aac2;
+}
+
+/* line 137, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #878E88;
+  border-radius: 5px;
+  padding: 0.7em;
+  color: #878E88;
+}
+
+/* line 144, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_components.scss */
+.button-secondary:hover {
+  background-color: #878E88;
+  color: #fff;
+}
+
+@media only screen and (min-width: 480px) {
+  /* line 2, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  .navbar-item {
+    float: right;
+  }
+  /* line 5, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  .navbar-item a {
+    padding: 1em;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 11, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.75em 0 0.75em 0;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  /* line 17, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  .row {
+    flex-flow: row wrap;
+    margin: 0;
+  }
+  /* line 21, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  .col-2, .col-3, .col-4, .col-5, .col-6 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  /* line 27, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  /* line 33, C:/Users/Karla/Documents/Harvard Ext/Mobile Front End 2/Assignment4/scss/_responsive.scss */
+  .col-6 {
+    flex: 0 0 16.66%;
+    padding: 1em;
+    margin: 0.5em 0 0.5em 0;
+  }
+}
+
+/*# sourceMappingURL=../css/workaround.map */
