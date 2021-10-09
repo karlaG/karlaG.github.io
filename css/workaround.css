@@ -349,10 +349,13 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
   font-family: "Hind Guntur", sans-serif;
   font-size: 1em;
   color: #363537;
@@ -410,10 +413,12 @@ body {
 }
 
 footer {
-  margin: 3em 0 2.5em 0;
-  padding: 2em;
+  margin-top: 3em;
+  padding: 4em 2em;
   text-align: center;
   flex-shrink: 0;
+  border-top: 1px solid;
+  color: #878E88;
 }
 
 .navbar {
@@ -506,7 +511,7 @@ a:hover {
   background-color: #78A1BB;
   border: 2px solid #78A1BB;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px;
   color: #fff;
 }
 
@@ -518,7 +523,7 @@ a:hover {
   background-color: transparent;
   border: 2px solid #878E88;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px;
   color: #878E88;
 }
 
