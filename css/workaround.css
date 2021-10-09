@@ -533,8 +533,12 @@ a:hover {
 }
 
 @media only screen and (min-width: 480px) {
+  .mobile-menu {
+    background-color: #698F3F;
+    color: white;
+  }
   .navbar-item {
-    float: right;
+    text-align: center;
   }
   .navbar-item a {
     padding: 1em;
@@ -555,10 +559,6 @@ a:hover {
   }
   .col-2, .col-3, .col-4, .col-5, .col-6 {
     margin: 0;
-  }
-  .mobile-menu {
-    background-color: #698F3F;
-    color: white;
   }
 }
 
