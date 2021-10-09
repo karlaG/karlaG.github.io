@@ -21,6 +21,10 @@
 	.col-2, .col-3, .col-4, .col-5, .col-6 {
 		margin: 0;
 	}
+	.mobile-menu {
+		background-color: $primary-color;
+		color: white;
+	}
 }
 
 @media only screen and (min-width: 780px) {
