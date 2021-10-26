@@ -38,3 +38,9 @@
 		@include std-col(16.66%);
 	}
 }
+
+@media only screen and (max-width: 970px) {
+	.mobile {
+		display: none;
+	}
+}

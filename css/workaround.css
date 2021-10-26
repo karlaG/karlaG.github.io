@@ -576,3 +576,9 @@ a:hover {
     margin: 0.5em 0 0.5em 0;
   }
 }
+
+@media only screen and (max-width: 970px) {
+  .mobile {
+    display: none;
+  }
+}
